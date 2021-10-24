@@ -1,0 +1,138 @@
+header{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 10vh;
+    margin-bottom: 2px;
+}
+
+
+#icon{   
+    height: 10vh;
+    width: 10vh;
+    margin-top: 2px;
+    margin-left:4rem;
+    margin-bottom: 2px;     
+}
+
+.headder a{ 
+    color: black;
+    font-size: 1.1rem;
+    margin-right: 1.2rem;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+}
+
+.headder{
+   
+    padding-top: 2%;
+    padding-right: 3px;
+}
+
+.headder a:hover{
+   color:yellowgreen;
+}
+
+.container2{
+
+    height: 50vh;
+    width: 150vh;
+    display: flex;
+    justify-content: center;
+    margin: 8rem 0 0 17rem;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   color: grey;
+}
+
+.container2 h4{
+
+padding-left: 3.5rem;
+}
+
+#hr{
+
+width: 8rem;  
+padding-left: 3.5rem;  
+size: 3px;
+color: greenyellow;
+}
+
+.cartel{
+    width: 35rem;
+    height: 15rem;
+    background-color: whitesmoke;
+    margin-left: 5rem;
+    padding-top: 3rem;
+    padding-left: 3rem;
+ 
+}
+
+.cartel img{
+
+width: 3rem;
+height: 3rem;
+border-radius: 50%;
+}
+
+
+.redes1{
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+   
+ 
+}
+
+.redes1 hr{
+    width: 20rem;
+    color: grey;   
+}
+
+.redes1 label{
+padding: 0 10px 0 10px;
+color:grey;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.botones{
+display: flex;
+justify-content: center;
+margin-bottom: 4rem;
+}
+
+.boton{
+    height: 5rem;
+    width: 5rem;   
+}
+
+.boton :hover{
+    transform: scale(1.5);
+}
+
+footer{
+    background-color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: grey;
+    padding-top: 1rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer li{
+    list-style: none;     
+    margin-top: 0.7rem;
+}
+
+footer a{
+    text-decoration: none;
+    color: grey;
+}
+
+footer img{
+    height: 1rem;
+    width: 1rem;
+    border-radius: 70%;
+}
+  
