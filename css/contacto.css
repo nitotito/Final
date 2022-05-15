@@ -4,7 +4,7 @@ header{
     justify-content: space-between;
     width: 100%;
     height: 10vh;
-    margin-bottom: 2px;
+    margin-bottom: 3px;
 }
 
 
@@ -22,6 +22,7 @@ header{
     margin-right: 1.2rem;
     text-decoration: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    transition: .5s linear;
 }
 
 .headder{
@@ -32,6 +33,9 @@ header{
 
 .headder a:hover{
    color:yellowgreen;
+    font-size: larger;
+    text-shadow: 0 0 10px green;
+
 }
 
 .container{
@@ -39,23 +43,22 @@ header{
     background-position: center;
     background-size: cover;
     opacity: 0.8;
-    height: 85vh;
+    height: 100%;
     top: 3rem;
-    position: relative;
-  
+    display: flex;
+    justify-content: center;
 
    
 }
 
 .form{
-
+    
     width: 35%;
-    height: 80%;
+    height: 100%;
     background-color: whitesmoke;
-    position: absolute;
-    left:32%;
-    top: 5%;    
-    padding-top: 2.5rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    padding: 3rem 1rem 5rem 1rem;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     border: grey solid;
