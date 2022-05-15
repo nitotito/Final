@@ -24,7 +24,8 @@ header{
     margin-right: 1.2rem;
     text-decoration: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif; 
-    
+    /*cambia color en lapso de tiempo*/
+    transition: .5s linear; 
    
 }
 
@@ -37,6 +38,12 @@ header{
 
 .headder a:hover{
    color:yellowgreen;
+   /*Agregado de sombra: sombra horizontal - vertical - blur - colo */
+    text-shadow: 0 0 2px green;
+    /*Agrega movimiento*/
+    margin-right: 4px;
+    margin-top: 2px;
+    
 } 
 
 .portada{
@@ -156,9 +163,9 @@ margin-bottom: 2rem;
 
 .redes1 hr{
 
-    width: 20rem;
+    width: 14rem;
     color: grey;
-
+    
     
 }
 .redes1 label{
@@ -344,7 +351,7 @@ footer img{
         .img-final img{
         
             height: 17vh;
-            width: 50vh;
+            width: 49vh;
             
         }
         
@@ -362,12 +369,12 @@ footer img{
         
             
         }
-        .redes1 label{
+        .redes1 p{
         padding: 0 10px 0 10px;
         color:grey;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-size: 10px;
-        
+        text-align: center;
         
         }
         #plant{
